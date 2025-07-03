@@ -1,2 +1,2 @@
-# html-css
+# HTML/CSS
 Experiencing with HTML/CSS
