@@ -1,0 +1,84 @@
+<html>
+
+<head>
+  <title>
+    Bellyache
+  </title>
+  <style>
+    body {
+      background: #000;
+      padding-top: 40px;
+    }
+
+    .a,
+    .title {
+      color: green;
+      font-size: 67;
+      text-align: center;
+      padding: auto;
+      font-weight: bold;
+      font-family: Roboto, Sans-Serif;
+      border: solid 5px #00ff00;
+      border-radius: 15px;
+      width: 20%;
+      padding: none;
+    }
+
+    .reddy {
+      color: red;
+      font-size: 67;
+      text-align: center;
+      padding: auto;
+      font-weight: bold;
+      font-family: Roboto, Sans-Serif;
+      border: none;
+    }
+
+    img {
+      width: 220px;
+      height: 300px;
+      border-radius: 15px;
+      border: solid 1px blue;
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .title {
+      color: blue;
+      font-size: 18px;
+      border: none;
+      width: 100%
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <img src="https://wallpapers.com/images/hd/billie-eilish-jmnrb3mq3alp1o8f.jpg" />
+    <p class="title">
+      Billie Eilish - Bellyache
+    </p>
+    <p class="a">
+      Play
+    </p>
+  </div>
+  <script>console.log("It should be somehow better")
+    let a = document.querySelector(".a");
+    a.addEventListener("click", () => {
+      a.textContent = ".......";
+      a.classList.add("reddy");
+      play();
+    });
+    function play() {
+      var audio = new Audio('https://dn720302.ca.archive.org/0/items/billie-eilish_202109/Billie%20Eilish%20Bellyache.mp3');
+      audio.play();
+    }
+  </script>
+</body>
+
+</html>
